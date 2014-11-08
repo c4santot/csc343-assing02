@@ -130,7 +130,6 @@ public class Assignment2Test {
 				  rs = ps.executeQuery();		  
 				  if(rs.next()){
 					  total = rs.getInt(1);
-					  System.out.println(rs.getInt(1));
 				  }
 				  if(rs!=null){
 					  rs.close();
@@ -355,11 +354,11 @@ public class Assignment2Test {
 			System.out.println("Country not inserted");
 		}
 		
-		System.out.println(assignment.getOceanInfo(1));
+		System.out.println("Ocean" + assignment.getOceanInfo(1));
 		
-		System.out.println(assignment.listCountryLanguages(1));
+		System.out.println("List of Countries" + assignment.listCountryLanguages(1));
 		
-		System.out.println(assignment.getCountriesNextToOceanCount(1));
+		System.out.println("Number of Countries" + assignment.getCountriesNextToOceanCount(1));
 		
 		assignment.disconnectDB();
 		
