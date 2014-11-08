@@ -353,6 +353,8 @@ public class Assignment2Test {
 		
 		System.out.println(assignment.listCountryLanguages(1));
 		
+		System.out.println(assignment.getCountriesNextToOceanCount(1));
+		
 		assignment.disconnectDB();
 		
 
