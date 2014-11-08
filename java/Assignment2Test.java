@@ -258,7 +258,7 @@ public class Assignment2Test {
 			  String list = "";
 			  
 			  try{
-				  String statement = "SELECT * FROM language WHERE cid=? ORDER BY population DESC";
+				  String statement = "SELECT * FROM language WHERE cid=? ORDER BY lpercentage DESC";
 				  ps = connection.prepareStatement(statement);
 				  ps.setInt(1, cid);
 				  rs = ps.executeQuery();		  
