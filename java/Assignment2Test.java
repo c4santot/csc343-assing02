@@ -349,7 +349,7 @@ public class Assignment2Test {
 			System.out.println("Didn't connect");
 		}
 		
-		if(assignment.insertCountry(25, "Jamaica", 1000, 1000000)){
+		if(assignment.insertCountry(21, "Jamaica", 1000, 1000000)){
 			System.out.println("Country inserted");
 		}else{
 			System.out.println("Country not inserted");
