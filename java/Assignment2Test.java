@@ -345,7 +345,11 @@ public class Assignment2Test {
 			System.out.println("Country not inserted");
 		}
 		
+		System.out.println(assignment.getOceanInfo(1));
+		
 		System.out.println(assignment.listCountryLanguages(1));
+		
+		assignment.disconnectDB();
 		
 
 	}
