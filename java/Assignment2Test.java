@@ -52,8 +52,9 @@ public class Assignment2Test {
 		  try{
 			  if(rs!=null){
 				  rs.close();
+				  resultSetClosed = rs.isClosed();
 			  }
-			  resultSetClosed = rs.isClosed();
+			  
 			  
 			  if(ps!=null){
 				  ps.close();
