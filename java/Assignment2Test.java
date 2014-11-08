@@ -94,7 +94,7 @@ public class Assignment2Test {
 			  int psReturn = 0;
 			  
 			  try{
-				  String statement = "INSERT INTO country(id, name, height, population) VALUES (?, ?, ?, ?)";
+				  String statement = "INSERT INTO country(cid, cname, height, population) VALUES (?, ?, ?, ?)";
 				  ps = connection.prepareStatement(statement);
 				  ps.setInt(1, cid);
 				  ps.setString(2, name);
