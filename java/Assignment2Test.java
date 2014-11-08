@@ -58,18 +58,21 @@ public class Assignment2Test {
 			  
 			  if(ps!=null){
 				  ps.close();
+				  preparedStatementClosed = ps.isClosed();
 			  }
-			  preparedStatementClosed = ps.isClosed();
+			  
 			  
 			  if(sql!=null){
-				  sql.close();			  
+				  sql.close();
+				  statementClosed = sql.isClosed();
 			  }
-			  statementClosed = sql.isClosed();
+			  
 			  
 			  if(connection!=null){
-				  connection.close();			  
+				  connection.close();
+				  connectionClosed = connection.isClosed();
 			  }
-			  connectionClosed = connection.isClosed();
+			  
 
 		  }catch(SQLException e){
 			  
