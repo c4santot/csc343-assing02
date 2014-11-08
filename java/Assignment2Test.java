@@ -325,14 +325,13 @@ public class Assignment2Test {
 				  sqlReturn = sql.executeUpdate(statement);		  		  
 				  
 				  sql.close();		  
-				  sqlClosed = sql.isClosed();
-				 
+				  sqlClosed = sql.isClosed();				 
 				  
 			  }catch(SQLException e){
 				  
 			  }
 			  
-			  return (sqlClosed && (sqlReturn!=0));	
+			  return (sqlClosed && (sqlReturn==0));	
 		  }
 		  return false;
 		  
