@@ -125,6 +125,7 @@ public class Assignment2Test {
 				  rs = ps.executeQuery();		  
 				  if(rs.next()){
 					  total = rs.getInt(1);
+					  System.out.println(rs.getInt(1));
 				  }
 				  if(rs!=null){
 					  rs.close();
