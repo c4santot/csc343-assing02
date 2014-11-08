@@ -349,16 +349,40 @@ public class Assignment2Test {
 		}
 		
 		if(assignment.insertCountry(21, "Jamaica", 1000, 1000000)){
-			System.out.println("Country inserted");
+			System.out.println("Country inserted\n");
 		}else{
-			System.out.println("Country not inserted");
+			System.out.println("Country not inserted\n");
 		}
 		
-		System.out.println("Ocean" + assignment.getOceanInfo(1));
+		if(assignment.chgHDI(1, 2013, 8)){
+			System.out.println("HDI updated");
+		}else{
+			System.out.println("HDI not updated");
+		}
 		
-		System.out.println("List of Countries" + assignment.listCountryLanguages(1));
+		if(assignment.deleteNeighbour(1, 8)){
+			System.out.println("Deleted neighbour");
+		}else{
+			System.out.println("not deleted neighbour");
+		}
 		
-		System.out.println("Number of Countries" + assignment.getCountriesNextToOceanCount(1));
+		if(assignment.updateHeight(1, 4000)){
+			System.out.println("height updated");
+		}else{
+			System.out.println("height not updated");
+		}
+		
+		if(assignment.updateDB()){
+			System.out.println("DB updated - table created");
+		}else{
+			System.out.println("DB not updated");
+		}
+		
+		System.out.println("Ocean: " + assignment.getOceanInfo(1));
+		
+		System.out.println("List of Countries: " + assignment.listCountryLanguages(1));
+		
+		System.out.println("Number of Countries: " + assignment.getCountriesNextToOceanCount(1));
 		
 		assignment.disconnectDB();
 		
