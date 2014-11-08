@@ -202,6 +202,8 @@ public class Assignment2Test {
 				  String statement = "UPDATE hdi SET hdi_score=? WHERE cid=? AND year=?";
 				  ps = connection.prepareStatement(statement);
 				  ps.setFloat(1, newHDI);
+				  ps.setInt(2, cid);
+				  ps.setInt(3, year);
 				  psReturn = ps.executeUpdate();		  		  
 				  ps.close();		  
 				  psClosed = ps.isClosed();
@@ -323,7 +325,7 @@ public class Assignment2Test {
 				  sqlReturn = sql.executeUpdate(statement);		  		  
 				  
 				  sql.close();		  
-				  sqlClosed = ps.isClosed();
+				  sqlClosed = sql.isClosed();
 				 
 				  
 			  }catch(SQLException e){
@@ -349,9 +351,9 @@ public class Assignment2Test {
 		}
 		
 		if(assignment.insertCountry(21, "Jamaica", 1000, 1000000)){
-			System.out.println("Country inserted\n");
+			System.out.println("Country inserted");
 		}else{
-			System.out.println("Country not inserted\n");
+			System.out.println("Country not inserted");
 		}
 		
 		if(assignment.chgHDI(1, 2013, 8)){
