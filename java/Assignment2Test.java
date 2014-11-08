@@ -32,7 +32,12 @@ public class Assignment2Test {
 	  //Using the input parameters, establish a connection to be used for this session. Returns true if connection is sucessful
 	  public boolean connectDB(String URL, String username, String password){
 		  try {
-			  connection = DriverManager.getConnection(URL, username, password);		  
+			  connection = DriverManager.getConnection(URL, username, password);
+			  String statement = "SET search_path TO A2";
+			  sql = connection.createStatement();
+			  sql.executeUpdate(statement);		  		  
+			  
+			  sql.close();
 		  }catch (Exception e) {
 			// TODO: handle exception
 		  }
@@ -338,7 +343,7 @@ public class Assignment2Test {
 		
 		Assignment2Test assignment = new Assignment2Test();
 		
-		if(assignment.connectDB("jdbc:postgresql://localhost:5432/csc343h-c4sousal?searchpath=a2", "c4sousal", "")){
+		if(assignment.connectDB("jdbc:postgresql://localhost:5432/csc343h-c4sousal", "c4sousal", "")){
 			System.out.println("Connected");
 		}else{
 			System.out.println("Didn't connect");
