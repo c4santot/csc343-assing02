@@ -338,7 +338,7 @@ public class Assignment2Test {
 		
 		Assignment2Test assignment = new Assignment2Test();
 		
-		if(assignment.connectDB("jdbc:postgresql://localhost:5432/csc343h-c4sousal", "c4sousal", "")){
+		if(assignment.connectDB("jdbc:postgresql://localhost:5432/csc343h-c4sousal?searchpath=a2", "c4sousal", "")){
 			System.out.println("Connected");
 		}else{
 			System.out.println("Didn't connect");
