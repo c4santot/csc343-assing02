@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resumes>
+
+	<resume rID="r1">
+		<identification>
+			<name>
+				<forename>John</forename>
+				<surname>Garret</surname>
+				<honorific>Mr</honorific>
+			</name>
+			<sex>Male</sex>
+			<DOB>1986/07/05</DOB>
+			<citizenship>Canadian</citizenship>			
+			<address>607 Spadina Avenue</address>			
+			<telephone>5555555555</telephone>			
+			<email>johngarret@example.com</email>			
+		</identification>
+		<education>
+			<degree level="undergraduate">
+				<degreeName>Bachelors in Computer Science</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Computer Science Specialist</major>
+				<minor>Biomedicine</minor>
+				<honours/>
+				<period>
+					<startDate>2005/09/05</startDate>
+					<endDate>2010/09/05</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="IBM">
+				<title>Software Developer</title>
+				<description></description>
+				<period>
+					<startDate>2010/10/01</startDate>
+					<endDate>2012/12/20</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="C" level="3" />
+			<skill what="Java" level="4" />
+			<skill what="Python" level="4" />
+			<skill what="Haskell" level="2" />
+			<skill what="SQL" level="3" />
+		</skills>
+	</resume>
+
+	<resume rID="r2">
+		<identification>
+			<name>
+				<forename>Matthew</forename>
+				<surname>Hawkins</surname>
+				<honorific>Mr</honorific>
+			</name>
+			<sex>Male</sex>
+			<DOB>1987/05/20</DOB>
+			<citizenship>Canadian</citizenship>			
+			<address>456 College Street</address>			
+			<telephone>5555555555</telephone>			
+			<email>matthewhawkins@example.com</email>			
+		</identification>
+		<education>
+			<degree level="undergraduate">
+				<degreeName>Bachelors in Information Systems</degreeName>
+				<institution>University of Toronto</institution>
+				<major>Computer Science Specialist</major>
+				<minor>Psychology</minor>
+				<honours/>
+				<period>
+					<startDate>2006/09/05</startDate>
+					<endDate>2011/09/05</endDate>
+				</period>
+			</degree>
+		</education>
+		<experience>
+			<position where="IT Solutions">
+				<title>Database Analyst</title>
+				<description></description>
+				<period>
+					<startDate>2011/10/01</startDate>
+					<endDate>2013/12/20</endDate>
+				</period>
+			</position>
+		</experience>
+		<skills>
+			<skill what="C" level="3" />
+			<skill what="Java" level="3" />
+			<skill what="SQL" level="4" />
+			<skill what="XQuery" level="4" />
+		</skills>
+	</resume>
+
+</resumes>
