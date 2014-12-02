@@ -1,13 +1,16 @@
-declare function get-skill-num() as element()*{
-	for $p in doc("posting.xml")//posting, $r in doc("resume.xml")//resume
-	let $skills := $p/reqSkill
-	for $s in $skills
-	return if($r//skill[@what=$s/@what])
-		   then <post pID="{$p/@pID}" skill="{$s/@what}" />
-		   else () )
-}
+let $p := doc("posting.xml")
+let $r := doc("resume.xml")
 
-for posting$ in doc("posting.xml"), x$ in get-skill-num()
-let $resumes := doc("resume.xml")
-let $count := count($resume)
-return data($count)
+let $resumes := count($r//resume)
+
+return
+	distinct-values(
+		for $rs in $p//reqSkill
+		let $s := $rs/@what
+
+		let $resumesWithSkill := count($r//skill[@what = $s])
+		let $resumesAboveThree := count($r//skill[@what = $s and @level > 3])
+
+		where ($resumes div 2) > $resumesWithSkill or ($resumesWithSkill div 2) > $resumesAboveThree
+		return $rs/../@pID
+	)
