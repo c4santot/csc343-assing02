@@ -33,7 +33,10 @@ Raw results:
 ------ Query q5 ------
 
 Raw results:
-  Parsing Error: Parse error in file q5.xq [File "q5.xq", line 7, characters 13-14:]
+xs:untypedAtomic("p1"),
+xs:untypedAtomic("p4"),
+xs:untypedAtomic("p5"),
+xs:untypedAtomic("p6")
 
 ------ Query q6 ------
 
