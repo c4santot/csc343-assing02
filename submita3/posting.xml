@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<postings>
+
+	<posting pID="p1">
+		<position>Android Developer</position>
+		<reqSkill what="C" level="4" importance="3" />
+		<reqSkill what="Java" level="4" importance="4" />
+		<questions>
+			<question qID="1">
+				Are you familiar with Mobile development?
+			</question>
+		</questions>
+	</posting>
+
+	<posting pID="p2">
+		<position>Web Developer</position>
+		<reqSkill what="Java" level="3" importance="3" />
+		<reqSkill what="Python" level="4" importance="4" />
+		<questions>
+			<question qID="1">
+				Do you have experience in Web Development?
+			</question>
+			<question qID="2">
+				Are you familiar with Django Framework?
+			</question>
+		</questions>
+	</posting>
+
+
+	<posting pID="p3">
+		<position>Database Analyst</position>
+		<reqSkill what="SQL" level="4" importance="5" />
+		<reqSkill what="XQuery" level="3" importance="3" />
+		<questions>
+			<question qID="1">
+				Do you have experience with Oracle Databases?
+			</question>
+			<question qID="2">
+				Do you have experience with Database modeling?
+			</question>
+		</questions>
+	</posting>
+
+	<posting pID="p4">
+		<position>Assistant Research Technologist</position>
+		<reqSkill what="R" level="4" importance="4" />
+		<reqSkill what="MATLAB" level="4" importance="4" />
+		<reqSkill what="LaTeX" level="3" importance="3" />
+		<questions>
+			<question qID="1">
+				Do you have experience with Text analytics?
+			</question>
+			<question qID="2">
+				Do you have experience with Statistics?
+			</question>
+		</questions>
+	</posting>
+
+	<posting pID="p5">
+		<position>Software Engineer</position>
+		<reqSkill what="C" level="4" importance="4" />
+		<reqSkill what="Java" level="4" importance="4" />
+		<reqSkill what="Python" level="3" importance="3" />
+		<reqSkill what="Haskell" level="3" importance="3" />
+		<reqSkill what="Perl" level="2" importance="2" />
+		<questions>
+			<question qID="1">
+				Do you have experience in managing teams?
+			</question>
+			<question qID="2">
+				Are you familiar with SCRUM methodolgy?
+			</question>
+		</questions>
+	</posting>
+
+	<posting pID="p6">
+		<position>Software Developer</position>
+		<reqSkill what="C" level="4" importance="4" />
+		<reqSkill what="Java" level="4" importance="3" />
+		<reqSkill what="Python" level="3" importance="3" />
+		<questions>
+		</questions>
+	</posting>
+
+</postings>

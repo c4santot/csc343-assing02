@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interviews>
+	<interview rID="r1" pID="p2" sID="s1">
+		<date>01/01/2014</date>
+		<time> 10:00 </time>
+		<location>Toronto</location>
+		<assessment>
+			<answers>
+				<answer qID="1">Yep</answer>
+				<answer qID="1">Meh</answer>
+			</answers>
+			<techproficiency> 80 </techproficiency>
+			<communication> 70 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality>70</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r2" pID="p1" sID="s4">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>New York</location>
+		<assessment>
+			<answers>
+				<answer qID="55">I'm always moving, so yeah, I guess a I do</answer>
+			</answers>
+			<techproficiency> Regular </techproficiency>
+			<communication> Good </communication>
+			<enthusiasm> Excelent </enthusiasm>
+			<collegiality>Good</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r1" pID="p1" sID="s4">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>New York</location>
+		<assessment>
+			<answers>
+				<answer qID="55">Don't really like to run and stuff...</answer>
+			</answers>
+			<techproficiency> 0 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality>100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r2" pID="p3" sID="s4">
+		<date>02/01/2014</date>
+		<time> 12:00 </time>
+		<location>Toronto</location>
+		<assessment>
+			<answers>
+				<answer qID="1">Nah, I can't see the future</answer>
+				<answer qID="2">Give me some clay and I will show you modeling</answer>
+			</answers>
+			<techproficiency> 20 </techproficiency>
+			<communication> 0 </communication>
+			<enthusiasm> 0 </enthusiasm>
+			<collegiality>0</collegiality>			
+		</assessment>
+	</interview>
+
+	
+	<interview rID="r1" pID="p4" sID="s3">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<answers>
+				<answer qID="1">I read a lot.</answer>
+				<answer qID="2">That is not reading.</answer>
+			</answers>
+			<techproficiency> 0 </techproficiency>
+			<communication> 0 </communication>
+			<enthusiasm> 0 </enthusiasm>
+			<collegiality> 0</collegiality>			
+		</assessment>
+	</interview>
+	
+	<interview rID="r2" pID="p5" sID="s2">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<answers>
+				<answer qID="1">Kinda...</answer>
+				<answer qID="2">You mean american futball, right?</answer>
+			</answers>
+			<techproficiency> 100 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality> 100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r2" pID="p6" sID="s2">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<techproficiency> 100 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality> 100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interviewer sID="s1">
+		<forename>Felipe</forename>
+		<surname>Santos</surname>
+		<honorific>Dr.</honorific>
+		<title>MSc. Computer Science</title>
+	</interviewer>
+	<interviewer sID="s2">
+		<forename>Lucas</forename>
+		<surname>Lima</surname>
+		<honorific>Mr.</honorific>
+		<title>Macfag</title>
+	</interviewer>
+	<interviewer sID="s3">
+		<forename>Thiago</forename>
+		<surname>Vasconcelos</surname>
+		<honorific>Dr.</honorific>
+		<title>New Macfag</title>
+	</interviewer>
+	<interviewer sID="s4">
+		<forename>Otavio</forename>
+		<surname>Pires</surname>
+		<honorific>Sir</honorific>
+		<title>Chimney</title>
+	</interviewer>
+</interviews>
