@@ -19,7 +19,7 @@ done
 
 # Now run the queries that we can "pretty print" using xmllint
 # because they generate xml output.
-for query in q7 
+for query in q7 q8
 do
    echo "" >> results.txt
    echo "------ Query" $query "------" >> results.txt
