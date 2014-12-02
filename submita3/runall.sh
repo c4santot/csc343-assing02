@@ -19,7 +19,7 @@ done
 
 # Now run the queries that we can "pretty print" using xmllint
 # because they generate xml output.
-for query in q7 q8
+for query in q7 
 do
    echo "" >> results.txt
    echo "------ Query" $query "------" >> results.txt
@@ -48,12 +48,4 @@ xmllint --noout TEMP.xml >> results.txt  2>&1
 echo "Results valid? (no news is good news)" >> results.txt
 xmllint --noout --valid TEMP.xml >> results.txt  2>&1
 
-echo "" >> results.txt
-echo "------ Query" q8 "------" >> results.txt
-echo "<?xml version='1.0' standalone='no' ?>" > TEMP.xml
-echo "<!DOCTYPE report SYSTEM 'report.dtd'>" >> TEMP.xml
-galax-run q8.xq >> TEMP.xml  2>&1
-echo "Results Well-formed? (no news is good news)" >> results.txt
-xmllint --noout TEMP.xml >> results.txt  2>&1
-echo "Results valid? (no news is good news)" >> results.txt
-xmllint --noout --valid TEMP.xml >> results.txt  2>&1
+
