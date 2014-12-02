@@ -1,5 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interviews>
-	<interview>
+	<interview rID="r1" pID="p2" sID="s1">
+		<date>01/01/2014</date>
+		<time> 10:00 </time>
+		<location>Toronto</location>
+		<assessment>
+			<answers>
+				<answer qID="56">I am the master of all living things </answer>
+				<answer qID="58">No, i am not </answer>
+				<answer qID="57">My name is not important </answer>
+			</answers>
+			<techproficiency> 80 </techproficiency>
+			<communication> 70 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality>70</collegiality>			
+		</assessment>
 	</interview>
+
+	<interview rID="r2" pID="p1" sID="s4">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>New York</location>
+		<assessment>
+			<answers>
+				<answer qID="55">I have no future </answer>
+			</answers>
+			<techproficiency> Regular </techproficiency>
+			<communication> Good </communication>
+			<enthusiasm> Excelent </enthusiasm>
+			<collegiality>Good</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r3" pID="p1" sID="s4">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>New York</location>
+		<assessment>
+			<answers>
+				<answer qID="55">I am the future</answer>
+			</answers>
+			<techproficiency> 0 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality>100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r3" pID="p3" sID="s4">
+		<date>02/01/2014</date>
+		<time> 12:00 </time>
+		<location>Toronto</location>
+		<assessment>
+			<techproficiency> 20 </techproficiency>
+			<communication> 0 </communication>
+			<enthusiasm> 0 </enthusiasm>
+			<collegiality>0</collegiality>			
+		</assessment>
+	</interview>
+
+	
+	<interview rID="r4" pID="p4" sID="s3">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<answers>
+				<answer qID="58">I am. </answer>
+			</answers>
+			<techproficiency> 0 </techproficiency>
+			<communication> 0 </communication>
+			<enthusiasm> 0 </enthusiasm>
+			<collegiality> 0</collegiality>			
+		</assessment>
+	</interview>
+	
+	<interview rID="r5" pID="p5" sID="s2">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<techproficiency> 100 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality> 100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interview rID="r2" pID="p6" sID="s2">
+		<date>03/01/2014</date>
+		<time> 11:00 </time>
+		<location>Rio de janeiro</location>
+		<assessment>
+			<answers>
+				<answer qID="56">Your doom.</answer>
+				<answer qID="57">Doom.</answer>
+				<answer qID="58">Doom.</answer>
+			</answers>
+			<techproficiency> 100 </techproficiency>
+			<communication> 100 </communication>
+			<enthusiasm> 100 </enthusiasm>
+			<collegiality> 100</collegiality>			
+		</assessment>
+	</interview>
+
+	<interviewer sID="s1">
+		<forename>Antonio</forename>
+		<surname>Raposo</surname>
+		<honorific>Dr.</honorific>
+		<title>Master of the Universe</title>
+	</interviewer>
+	<interviewer sID="s2">
+		<forename>Jordan</forename>
+		<surname>Boaz</surname>
+		<honorific>Ms.</honorific>
+		<title>Dota Master</title>
+	</interviewer>
+	<interviewer sID="s3">
+		<forename>Danilo</forename>
+		<surname>Nogueira</surname>
+		<honorific>Sir.</honorific>
+		<title>Noob master</title>
+	</interviewer>
+	<interviewer sID="s4">
+		<forename>Juh</forename>
+		<surname>Fialho</surname>
+		<honorific>Ms.</honorific>
+		<title>Noveleira</title>
+	</interviewer>
 </interviews>
